@@ -1,0 +1,12 @@
+class Player {
+
+constructor()
+{
+
+    this.body=createSprite(100,100,100,100)
+    this.Image=loadAnimation("images/Pacman1.png","images/pacman2.png")
+    this.body.addAnimation("Pacman",this.Image)
+    this.body.scale=0.2
+}
+
+}
